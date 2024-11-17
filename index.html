@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo Page</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Tarun</h1>
+            <div>
+                <a href="#image">Home</a>
+                <a href="#content">Content</a>
+                <a href="#about">About Us</a>
+            </div>
+        </nav>
+        <img id="image" src="./images/image.png" alt="IMAGE"> 
+        <br>
+        <br>
+        <div id="content">   
+            <h1>Content</h1>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, saepe quam dolores distinctio iure quos placeat mollitia error, quasi consequatur velit magnam totam quod dolorum ipsam hic ratione officiis natus explicabo harum itaque excepturi? Temporibus optio ullamimos, qui placeat. Eos similique ducimus amet ea, impedit eius iure pariatur earum culpa est cupiditate tenetur quisquam architecto, nam asperiores numquam dignissimos odio voluptate consectetur praesentium voluptatibus aut. Distinctio aspernatur quam deserunt ab enim dolore asperiores aperiam ex, assumenda repudiandae pariatur nihil tempora laborum. Quas vitae sapiente doloremque omnis eaque sit autem et hic, cumque iste nobis reprehenderit placeat aperiam. Blanditiis sunt eligendi temporibus voluptates quod laborum, obcaecati veritatis consequuntur corrupti, fugiat ratione. Minus tempore, ut molestias tempora enim commodi nemo est ad quod ea animi laudantium quaerat quo quam nesciunt vitae voluptates inventore vel voluptatem qui labore delectus. Excepturi quisquam in ea ex debitis. Aliquid aperiam sint nihil corporis. Ex, dolore eius eos quibusdam consequatur, perferendis repudiandae perspiciatis ullaium culpa deleniti, minus autem aut voluptate facilis harum? Necessitatibus voluptatum obcaecati voluptatem dolore, totam voluptas reprehenderit saepe ad sit quas vitae alias delectus rem optio doloribus hic ab voluptates? Amet porro accusamus molestiae ea explicabo itaque, cumque, ipsam est accusantium ab, quaerat dolore nulla temporibus exercitationem eos vitae! Voluptates explicabo corrupti, doloremque laudantium inventore placeat amet? Unde quisquam pariatur laborum nisi dignissimos reprehenderit error doloribus</p>
+        </div> 
+        <div id="about">
+            <div class="loc">
+                <img src="./images/location.png" alt="Location">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, porro.</p>
+            </div>
+            <div>
+                <h1>Contact Us</h1>
+                <ul>
+                    <li><a href="mailto: tarungp001@gmail.com">Gmail</a></li>
+                    <li>ph: 8300006482</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <style>
+        *{
+            margin: 0;
+        }
+        nav{
+            position: sticky;
+            top: 0;
+            height: 75px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        nav div{
+            display: flex;
+            /*position: relative;*/
+            margin-left: 500px;
+            align-items: center;
+            justify-content: space-around;
+        }
+        nav div a{
+            margin-right: 30px;
+            font-size: 20px;
+            color: aliceblue;
+            text-decoration: none   ;
+        }
+        img{
+            width: 100%;
+        }
+        #content h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #content{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        #about{
+            margin-top: 50px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+            padding: 30px;
+        }
+        #about .loc{
+            display: flex;
+            width: 250px;
+            justify-content: space-around;
+        }
+        #about img{
+            width: 50px;
+        }
+    </style>
+</html>
